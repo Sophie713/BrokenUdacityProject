@@ -33,4 +33,8 @@ dependencies {
     implementation 'com.google.api-client:google-api-client:1.23.0'
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
     // LEGACY: Legacy compile :backend project
+    appengine{
+        //HERE add the path to your google cloud sdk directory like what i did here
+        tools.cloudSdkHome="C:/Users/sophi/AppData/Local/Google/Cloud SDK/google-cloud-sdk"
+    }
 }
